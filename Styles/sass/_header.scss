@@ -1,0 +1,173 @@
+//------------ MENU
+.navbar {
+	color: $light;
+	height: 80px;
+	border-bottom: 1px solid #000;
+}
+.navbar__wrapper {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar__logo {
+	font-size: 2.5rem;
+	color: $primary-light;
+}
+//
+.toggler {
+	display: flex;
+	justify-content: end;
+}
+.toggler__icon {
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+//
+.navbar__menu {
+	background-color: #000;
+	position: absolute;
+	top: 80px;
+	right: 0%;
+	width: 100%;
+	transition: right 0.3s ease;
+}
+.navbar__links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.navbar__link {
+	text-decoration: none;
+	color: $light;
+	padding: 1.2rem 1rem;
+	&:hover {
+		color: $primary-light;
+	}
+}
+
+.navbar__menu--hide {
+	right: -100%;
+}
+
+// -------------- BANNER
+.banner {
+	width: 100%;
+	margin-top: 3rem;
+}
+.banner__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1.5rem 0.5rem;
+}
+
+.banner__picture {
+	width: 50%;
+}
+
+.banner__profile {
+	border-radius: 50%;
+	width: 100%;
+	object-fit: cover;
+}
+.banner__info {
+	min-height: 85px;
+	text-align: center;
+}
+.banner__name {
+	color: $light;
+	font-size: 1.5rem;
+}
+.banner__subtitle {
+	color: $primary-light;
+}
+
+@media screen and (min-width: 640px) {
+	.banner__wrapper {
+		flex-direction: row;
+		justify-content: center;
+	}
+	.banner__picture {
+		width: 200px;
+	}
+	.banner__info {
+		margin-left: 30px;
+		text-align: start;
+	}
+	.banner__name {
+		font-size: 1.8rem;
+	}
+	.banner__subtitle {
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (min-width: 840px) {
+	.banner__wrapper {
+		justify-content: space-evenly;
+	}
+	.banner__info {
+		margin-left: 0px;
+	}
+	.banner__name {
+		font-size: 2rem;
+	}
+	.banner__subtitle {
+		font-size: 1.4rem;
+	}
+	.toggler {
+		display: none;
+	}
+	.navbar__menu {
+		position: relative;
+		width: 100%;
+		right: 0;
+		top: 0;
+		background-color: transparent;
+	}
+	.navbar__links {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		gap: 1rem;
+	}
+	.navbar__link {
+		padding: 0;
+		border-bottom: 1px solid $dark;
+		transition: color 0.3 ease-in-out;
+		&:hover {
+			cursor: pointer;
+			color: $primary-light;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.banner__wrapper {
+		gap: 2rem;
+	}
+	.banner__picture {
+		width: 250px;
+	}
+	.banner__name {
+		font-size: 2.5rem;
+	}
+	.banner__subtitle {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.banner__name {
+		font-size: 3.2rem;
+	}
+	.banner__subtitle {
+		font-size: 1.5rem;
+	}
+}

@@ -1,0 +1,73 @@
+.projects__list {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2rem;
+}
+
+.projects__item {
+	& > img {
+		width: 100%;
+		height: 250px;
+		object-fit: cover;
+	}
+	h4 {
+		margin: 1rem 0;
+		font-size: 1.25rem;
+	}
+	div {
+		display: flex;
+		gap: 0.5rem;
+		margin-bottom: 1.25rem;
+	}
+	.project__skill {
+		width: 30px;
+	}
+	p {
+		margin-bottom: 1rem;
+		color: $gray-light;
+	}
+	.projects__controller {
+		display: flex;
+	}
+	a {
+		background: $primary-light;
+		padding: 0.5rem 0.8rem;
+		text-decoration: none;
+		color: $light;
+		border-radius: 1rem;
+	}
+	.repository {
+		background: #000;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+}
+
+@media screen and (min-width: 840px) {
+	.projects__list {
+		grid-template-columns: 1fr 1fr;
+	}
+	.projects__item {
+		position: relative;
+		min-height: 530px;
+		a:hover {
+			transition: background 0.3s ease;
+			background: $primary;
+		}
+		.repository:hover {
+			background: $gray;
+		}
+	}
+	.projects__controller {
+		position: absolute;
+		bottom: 0px;
+		display: flex;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.projects__list {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}

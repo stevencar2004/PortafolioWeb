@@ -1,0 +1,64 @@
+.about {
+	margin: 3rem 0;
+}
+
+.about__info {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+
+	p {
+		color: $gray-light;
+		line-height: 1.7rem;
+	}
+	h3 {
+		margin-bottom: 1rem;
+	}
+
+	a {
+		width: 8rem;
+		border: 1px solid $light;
+		padding: 0.5rem 0.8rem;
+		border-radius: 0.8rem;
+		color: $light;
+		text-decoration: none;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+		font-weight: 600;
+	}
+	img {
+		width: 20px;
+	}
+	.cv_spanish {
+		background: none;
+		border: 1px solid $primary-light;
+		color: $primary-light;
+	}
+}
+
+@media screen and (min-width: 980px) {
+	.about__info {
+		flex-direction: row;
+		p {
+			width: 50%;
+		}
+		& > div {
+			width: 50%;
+			text-align: center;
+		}
+		a:hover {
+			transition: background 0.3s ease;
+
+			cursor: pointer;
+			background: $light;
+			color: $dark;
+		}
+		.cv_spanish:hover {
+			background: $primary-light;
+			border: 1px solid $primary-light;
+			color: $light;
+		}
+	}
+}

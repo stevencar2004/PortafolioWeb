@@ -1,0 +1,53 @@
+.skill {
+	margin: 3rem 0;
+}
+
+.skill__list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem 0.5rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.skill__item {
+	text-align: center;
+	img {
+		width: 50px;
+	}
+	p {
+		font-weight: 600;
+		font-size: 0.9rem;
+	}
+}
+
+@media screen and (min-width: 640px) {
+	.skill__list {
+		grid-template-columns: repeat(5, 1fr);
+		gap: 1rem 0.5rem;
+	}
+}
+
+@media screen and (min-width: 840px) {
+	.skill__list {
+		grid-template-columns: repeat(7, 1fr);
+	}
+}
+
+@media screen and (min-width: 980px) {
+	.skill__list {
+		grid-template-columns: repeat(8, 1fr);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.skill__list {
+		grid-template-columns: repeat(10, 1fr);
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.skill__list {
+		grid-template-columns: repeat(12, 1fr);
+	}
+}
