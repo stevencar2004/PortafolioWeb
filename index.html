@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PortafolioWeb</title>
+		<link rel="shortcut icon" href="Assets/laptop-code-solid.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="Styles/css/main.css" />
+		<script
+			src="https://kit.fontawesome.com/6fc7def821.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<span class="up" id="up">
+			<i class="fa-solid fa-caret-up"></i>
+		</span>
+
+		<header id="home">
+			<nav class="navbar">
+				<div class="navbar__wrapper padding-box">
+					<div class="navbar__brand">
+						<i class="fa-solid fa-laptop-code navbar__logo"></i>
+					</div>
+
+					<div class="toggler">
+						<i class="fa-solid fa-bars-staggered toggler__icon" id="btn-toggle"></i>
+					</div>
+
+					<div class="navbar__menu" id="menu-list">
+						<div class="navbar__links">
+							<a href="#home" class="navbar__link" rel="noopener noreferrer">Home</a>
+							<a href="#skills" class="navbar__link" rel="noopener noreferrer">Skills</a>
+							<a href="#projects" class="navbar__link" rel="noopener noreferrer"
+								>Projects</a
+							>
+							<a href="#aboutme" class="navbar__link" rel="noopener noreferrer"
+								>About Me</a
+							>
+							<a href="#contactme" class="navbar__link" rel="noopener noreferrer"
+								>Contact Me</a
+							>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			<div class="banner">
+				<div class="banner__wrapper padding-box">
+					<div class="banner__picture">
+						<img src="Assets/profileSmall.png" class="banner__profile" alt="" />
+					</div>
+					<div class="banner__info">
+						<h2 class="banner__name">Steven Cardona Betancur</h2>
+						<span class="typed"></span>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="skill" id="skills">
+			<div class="skill__wrapper padding-box">
+				<h2 class="skill__title title">Skills</h2>
+
+				<article class="skill__list">
+					<div class="skill__item">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+							alt="html"
+						/>
+						<p>HTML5</p>
+					</div>
+
+					<div class="skill__item">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+							alt="css"
+						/>
+						<p>CSS3</p>
+					</div>
+
+					<div class="skill__item">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+							alt="Sass"
+						/>
+						<p>Sass</p>
+					</div>
+
+					<div class="skill__item">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+							alt="JavaScript"
+						/>
+						<p>JavaScript</p>
+					</div>
+
+					<div class="skill__item">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+							alt="React.js"
+						/>
+						<p>React</p>
+					</div>
+
+					<div class="skill__item">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+							alt="Typescript"
+						/>
+						<p>Typescript</p>
+					</div>
+
+					<div class="skill__item">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+							alt="bootstrap"
+						/>
+						<p>Bootstrap</p>
+					</div>
+
+					<div class="skill__item">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
+							alt="Mui"
+						/>
+						<p>Mui</p>
+					</div>
+
+					<div class="skill__item">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"
+							alt="git"
+						/>
+						<p>Git</p>
+					</div>
+
+					<div class="skill__item">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+						/>
+						<p>Python</p>
+					</div>
+
+					<div class="skill__item">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+							alt="Java"
+						/>
+						<p>Java</p>
+					</div>
+
+					<div class="skill__item">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+							alt="C++"
+						/>
+						<p>C++</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section class="projects" id="projects">
+			<div class="projects__wrapper padding-box">
+				<h2 class="projects__title title">Projects</h2>
+
+				<article class="projects__list">
+					<div class="projects__item">
+						<img src="Assets/projects/luxuryTravels.jpeg" alt="LuxuryTravels-img" />
+						<h4>LuxuryTravels</h4>
+
+						<div>
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+								alt="html"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+								alt="css"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+								alt="Sass"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+								alt="JavaScript"
+								class="project__skill"
+							/>
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"
+								alt="git"
+								class="project__skill"
+							/>
+						</div>
+
+						<p>
+							Landing page, for the static. Theme to show information about a luxury
+							travel agency
+						</p>
+						<div class="projects__controller">
+							<a
+								href="https://stevencar2004.github.io/Design_LuxuryTravels/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Show Project</a
+							>
+							<a
+								href="https://github.com/stevencar2004/Design_LuxuryTravels"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="repository"
+							>
+								<i class="fa-brands fa-github"></i>
+								Show Repository
+							</a>
+						</div>
+					</div>
+
+					<div class="projects__item">
+						<img
+							src="Assets/projects/pokemonsPagination.jpeg"
+							alt="pokemonsPagination-img"
+						/>
+						<h4>PokemonsPagination</h4>
+
+						<div>
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+								alt="html"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+								alt="css"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+								alt="Sass"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+								alt="JavaScript"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+								alt="React.js"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+								alt="Typescript"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+								alt="bootstrap"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"
+								alt="git"
+								class="project__skill"
+							/>
+						</div>
+
+						<p>
+							This page shows us all the Pokémon that currently exist, these are obtained
+							from an API. The page has a search engine to filter the pokemon by its name.
+						</p>
+						<div class="projects__controller">
+							<a
+								href="https://stevencar2004.github.io/Pagination-Filtered_Pokemons/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Show Project</a
+							>
+							<a
+								href="https://github.com/stevencar2004/Pagination-Filtered_Pokemons"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="repository"
+							>
+								<i class="fa-brands fa-github"></i>
+								Show Repository
+							</a>
+						</div>
+					</div>
+
+					<div class="projects__item">
+						<img src="Assets/projects/appTodos.jpeg" alt="appTodos-img" />
+						<h4>App Todos</h4>
+
+						<div>
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+								alt="html"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+								alt="JavaScript"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+								alt="React.js"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+								alt="Typescript"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+								alt="bootstrap"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"
+								alt="git"
+								class="project__skill"
+							/>
+						</div>
+
+						<p>
+							This app saves all the tasks that we create in the localstorage so they will
+							not be lost, we can mark them as completed or pending
+						</p>
+
+						<div class="projects__controller">
+							<a
+								href="https://stevencar2004.github.io/App-Todos_TSC-REACT/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Show Project</a
+							>
+							<a
+								href="https://github.com/stevencar2004/App-Todos_TSC-REACT"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="repository"
+							>
+								<i class="fa-brands fa-github"></i>
+								Show Repository
+							</a>
+						</div>
+					</div>
+
+					<div class="projects__item">
+						<img src="Assets/projects/companyRealState.jpeg" alt="companyRealState-img" />
+						<h4>Company RealState</h4>
+
+						<div>
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+								alt="html"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+								alt="css"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+								alt="JavaScript"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+								alt="React.js"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+								alt="Typescript"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+								alt="bootstrap"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"
+								alt="git"
+								class="project__skill"
+							/>
+						</div>
+
+						<p>
+							This app is responsible for consuming a real estate api and displays the
+							information on the website, it has search and filter options to find the
+							house of your dreams
+						</p>
+
+						<div class="projects__controller">
+							<a
+								href="https://stevencar2004.github.io/React_RealState/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Show Project</a
+							>
+							<a
+								href="https://github.com/stevencar2004/React_RealState"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="repository"
+							>
+								<i class="fa-brands fa-github"></i>
+								Show Repository
+							</a>
+						</div>
+					</div>
+
+					<div class="projects__item">
+						<img src="Assets/projects/criaderoCardona.jpeg" alt="criaderoCardona-img" />
+						<h4>CriaderoCardona</h4>
+
+						<div>
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+								alt="html"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+								alt="css"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+								alt="JavaScript"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"
+								alt="git"
+								class="project__skill"
+							/>
+						</div>
+
+						<p>
+							This app saves all the tasks that we create in the localstorage so they will
+							not be lost, we can mark them as completed or pending
+						</p>
+
+						<div class="projects__controller">
+							<a
+								href="https://stevencar2004.github.io/WebSite/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Show Project</a
+							>
+							<a
+								href="https://github.com/stevencar2004/WebSite"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="repository"
+							>
+								<i class="fa-brands fa-github"></i>
+								Show Repository
+							</a>
+						</div>
+					</div>
+
+					<div class="projects__item">
+						<img src="Assets/projects/gameSnake.jpeg" alt="gameSnake-img" />
+						<h4>GameSnake</h4>
+
+						<div>
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+								alt="html"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+								alt="css"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+								alt="JavaScript"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"
+								alt="git"
+								class="project__skill"
+							/>
+						</div>
+
+						<p>
+							The Project Snake project is a redesign of the concept of the video game
+							"Snake" conceived in 1976.
+						</p>
+
+						<div class="projects__controller">
+							<a
+								href="https://stevencar2004.github.io/ProjectSnake/index.html"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Show Project</a
+							>
+							<a
+								href="https://github.com/stevencar2004/ProjectSnake"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="repository"
+							>
+								<i class="fa-brands fa-github"></i>
+								Show Repository
+							</a>
+						</div>
+					</div>
+
+					<div class="projects__item">
+						<img src="Assets/projects/laCuisine.jpeg" alt="laCuisine-img" />
+						<h4>LaCuisine - Technical Test</h4>
+
+						<div>
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+								alt="html"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+								alt="css"
+								class="project__skill"
+							/>
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+								alt="Sass"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+								alt="JavaScript"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+								alt="bootstrap"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"
+								alt="git"
+								class="project__skill"
+							/>
+						</div>
+
+						<p>
+							Layout this web page under a design delivered by a company. The purpose was
+							to test my knowledge with a technical test. All rights belong to Backbone
+							and la Cuisine,
+						</p>
+
+						<div class="projects__controller">
+							<a
+								href="https://stevencar2004.github.io/la_cuisine/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Show Project</a
+							>
+							<a
+								href="https://github.com/stevencar2004/la_cuisine"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="repository"
+							>
+								<i class="fa-brands fa-github"></i>
+								Show Repository
+							</a>
+						</div>
+					</div>
+
+					<div class="projects__item">
+						<img src="Assets/projects/webSite.jpeg" alt="webSite-img" />
+						<h4>LandingPage</h4>
+
+						<div>
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+								alt="html"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+								alt="css"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+								alt="JavaScript"
+								class="project__skill"
+							/>
+						</div>
+
+						<p>
+							This page was one of the first pages that I marked, the purpose was to
+							verify the knowledge acquired in a course carried out on youtube
+						</p>
+
+						<div class="projects__controller">
+							<a
+								href="https://stevencar2004.github.io/Website-Design-2/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Show Project</a
+							>
+							<a
+								href="https://github.com/stevencar2004/Website-Design-2"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="repository"
+							>
+								<i class="fa-brands fa-github"></i>
+								Show Repository
+							</a>
+						</div>
+					</div>
+
+					<div class="projects__item">
+						<img src="Assets/projects/loginAllPage.jpeg" alt="loginAllPage-img" />
+						<h4>Login AllPage</h4>
+
+						<div>
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+								alt="html"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+								alt="css"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+								alt="Sass"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+								alt="JavaScript"
+								class="project__skill"
+							/>
+						</div>
+
+						<p>
+							This landing page is used to log in to a platform or page that requires
+							registered users, it should be noted that it is only the layout design
+						</p>
+
+						<div class="projects__controller">
+							<a
+								href="https://stevencar2004.github.io/form_allPage/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Show Project</a
+							>
+							<a
+								href="https://github.com/stevencar2004/form_allPage"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="repository"
+							>
+								<i class="fa-brands fa-github"></i>
+								Show Repository
+							</a>
+						</div>
+					</div>
+
+					<div class="projects__item">
+						<img src="Assets/projects/luxuryLogin.jpeg" alt="luxuryLogin-img" />
+						<h4>LuxuryLogin</h4>
+
+						<div>
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+								alt="html"
+								class="project__skill"
+							/>
+
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+								alt="css"
+								class="project__skill"
+							/>
+						</div>
+
+						<p>This Login can be used in a glamorous or very elegant environment</p>
+
+						<div class="projects__controller">
+							<a
+								href="https://stevencar2004.github.io/Login-Profesional/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Show Project</a
+							>
+							<a
+								href="https://github.com/stevencar2004/Login-Profesional"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="repository"
+							>
+								<i class="fa-brands fa-github"></i>
+								Show Repository
+							</a>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section class="about" id="aboutme">
+			<div class="about__wrapper padding-box">
+				<h2 class="projects__title title">About Me</h2>
+
+				<article class="about__info">
+					<p>
+						I consider myself a very responsible, honest person. I integrate easily into
+						work environments and work teams, I am very proactive and I have the ability
+						to absorb theoretical and practical knowledge very quickly.
+					</p>
+					<div>
+						<h3>Download Curriculum Vitae</h3>
+						<a target="_blank" href="./docs/English - FrontEnd Developer.pdf">
+							<img src="Assets/en.png" alt="" />
+							English
+						</a>
+						<a
+							class="cv_spanish"
+							target="_blank"
+							href="./docs/Español - Desarrollador Frontend.pdf"
+						>
+							<img src="Assets/es.png" alt="" />
+							Spanish
+						</a>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<footer class="contact" id="contactme">
+			<div class="contact__wrapper padding-box">
+				<form
+					action="https://formsubmit.co/stevencardona.2021@gmail.com"
+					method="POST"
+					class="form"
+				>
+					<div class="form__box">
+						<label for="email" class="form__label">Email</label>
+						<input
+							class="form__field"
+							type="email"
+							name="email"
+							id="email"
+							placeholder="your@email.com"
+							required
+							minlength="3"
+							maxlength="25"
+						/>
+					</div>
+
+					<div class="form__box">
+						<label for="messagge" class="form__label">Messagge</label>
+						<textarea
+							class="form__field textarea"
+							name="messagge"
+							id="messagge"
+							cols="30"
+							rows="10"
+							placeholder="hi, steven..."
+							required
+							minlength="3"
+							maxlength="5000"
+						></textarea>
+					</div>
+
+					<button type="submit" class="form__btn">Contact Me</button>
+				</form>
+
+				<div class="contact__info">
+					<h2 class="contact__title">Steven Cardona Betancur</h2>
+
+					<div class="contact__social">
+						<a href="http://" target="_blank" rel="noopener noreferrer">
+							<i class="fa-brands fa-linkedin"></i>
+							Linkedin
+						</a>
+						<a href="http://" target="_blank" rel="noopener noreferrer">
+							<i class="fa-brands fa-github"></i>
+							Github
+						</a>
+					</div>
+				</div>
+			</div>
+			<p class="contact__copyrights">Steven Cardona Betancur | 2022</p>
+		</footer>
+
+		<!-- SCRIPTS -->
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script src="js/showMenu.js"></script>
+		<script src="js/configTyped.js"></script>
+		<script src="js/btnScrollUp.js"></script>
+	</body>
+</html>
