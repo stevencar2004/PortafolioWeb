@@ -94,11 +94,21 @@
 
 .projects__item .repository { background: #000; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; gap: 8px; }
 
+.projects__btn { width: 100%; outline: none; border: none; padding: 0.8rem 0; font-weight: 600; grid-column: 1/-1; background-color: transparent; color: #4e9f3d; border-bottom: 1px solid #4e9f3d; }
+
+.projects__btn i { margin-left: 0.2rem; }
+
+.projects__more { -webkit-transition: height 0.3s ease; transition: height 0.3s ease; grid-column: 1/-1; }
+
+.projects__more--hide { -webkit-transition: height 0.3s ease; transition: height 0.3s ease; overflow: hidden; height: 0; }
+
 @media screen and (min-width: 840px) { .projects__list { -ms-grid-columns: 1fr 1fr; grid-template-columns: 1fr 1fr; }
   .projects__item { position: relative; min-height: 530px; }
   .projects__item a:hover { -webkit-transition: background 0.3s ease; transition: background 0.3s ease; background: #1e5128; }
   .projects__item .repository:hover { background: #444444; }
-  .projects__controller { position: absolute; bottom: 0px; display: -webkit-box; display: -ms-flexbox; display: flex; } }
+  .projects__controller { position: absolute; bottom: 0px; display: -webkit-box; display: -ms-flexbox; display: flex; }
+  .projects__btn { cursor: pointer; }
+  .projects__btn:hover { -webkit-transition: border-bottom 0.2s ease; transition: border-bottom 0.2s ease; color: #efefef; border-bottom: 1px solid #efefef; } }
 
 @media screen and (min-width: 1200px) { .projects__list { -ms-grid-columns: (1fr)[3]; grid-template-columns: repeat(3, 1fr); } }
 
